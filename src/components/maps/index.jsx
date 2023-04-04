@@ -3,7 +3,8 @@ import { GoogleMap, MarkerF, useLoadScript } from "@react-google-maps/api";
 
 export default function MapsSection() {
   // create API from google console
-  const { isLoaded } = useLoadScript({ googleMapsApiKey: "AIzaSyAVBCGyTYJPtfAF67BQ5dWink5m2oX4w0o" });
+  // source ENV problem in Vite ReactJS = https://stackoverflow.com/questions/70709987/how-to-load-environment-variables-from-env-file-using-vite
+  const { isLoaded } = useLoadScript({ googleMapsApiKey: import.meta.env.VITE_REACT_GOOGLE_MAP_API_KEY });
 
   // Loading conditional
   if (!isLoaded) return <div>......Loading</div>;
