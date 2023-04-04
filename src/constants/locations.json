@@ -1,0 +1,58 @@
+{
+  "location": [
+    {
+      "Latitude": 1.28692,
+      "Longitude": 103.85457,
+      "Placename": "Merlion",
+      "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure maiores asperiores laborum, tenetur repellat eaque sit praesentium a commodi deleniti. Totam corporis nemo corrupti explicabo ipsa ad, assumenda, iure, inventore ipsum et dolores cumque asperiores laudantium incidunt. Natus, minima. Rem tenetur omnis reiciendis laborum quia."
+    },
+    {
+      "Latitude": 1.287466,
+      "Longitude": 103.851424,
+      "Placename": "Asian Civilisations Museum",
+      "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure maiores asperiores laborum, tenetur repellat eaque sit praesentium a commodi deleniti. Totam corporis nemo corrupti explicabo ipsa ad, assumenda, iure, inventore ipsum et dolores cumque asperiores laudantium incidunt. Natus, minima. Rem tenetur omnis reiciendis laborum quia."
+    },
+    {
+      "Latitude": 1.290555,
+      "Longitude": 103.846188,
+      "Placename": "Clarke Quay",
+      "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure maiores asperiores laborum, tenetur repellat eaque sit praesentium a commodi deleniti. Totam corporis nemo corrupti explicabo ipsa ad, assumenda, iure, inventore ipsum et dolores cumque asperiores laudantium incidunt. Natus, minima. Rem tenetur omnis reiciendis laborum quia."
+    },
+    {
+      "Latitude": 1.295526,
+      "Longitude": 103.845331,
+      "Placename": "Fort Canning Park",
+      "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure maiores asperiores laborum, tenetur repellat eaque sit praesentium a commodi deleniti. Totam corporis nemo corrupti explicabo ipsa ad, assumenda, iure, inventore ipsum et dolores cumque asperiores laudantium incidunt. Natus, minima. Rem tenetur omnis reiciendis laborum quia."
+    },
+    {
+      "Latitude": 1.302279,
+      "Longitude": 103.837399,
+      "Placename": "Orchard Road",
+      "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure maiores asperiores laborum, tenetur repellat eaque sit praesentium a commodi deleniti. Totam corporis nemo corrupti explicabo ipsa ad, assumenda, iure, inventore ipsum et dolores cumque asperiores laudantium incidunt. Natus, minima. Rem tenetur omnis reiciendis laborum quia."
+    },
+    {
+      "Latitude": 1.289332,
+      "Longitude": 1.289332,
+      "Placename": "Singapore Flyer",
+      "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure maiores asperiores laborum, tenetur repellat eaque sit praesentium a commodi deleniti. Totam corporis nemo corrupti explicabo ipsa ad, assumenda, iure, inventore ipsum et dolores cumque asperiores laudantium incidunt. Natus, minima. Rem tenetur omnis reiciendis laborum quia."
+    },
+    {
+      "Latitude": 1.283099,
+      "Longitude": 103.860295,
+      "Placename": "Marina Bay Sands",
+      "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure maiores asperiores laborum, tenetur repellat eaque sit praesentium a commodi deleniti. Totam corporis nemo corrupti explicabo ipsa ad, assumenda, iure, inventore ipsum et dolores cumque asperiores laudantium incidunt. Natus, minima. Rem tenetur omnis reiciendis laborum quia."
+    },
+    {
+      "Latitude": 1.28179,
+      "Longitude": 103.863954,
+      "Placename": "Gardens By The Bay",
+      "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure maiores asperiores laborum, tenetur repellat eaque sit praesentium a commodi deleniti. Totam corporis nemo corrupti explicabo ipsa ad, assumenda, iure, inventore ipsum et dolores cumque asperiores laudantium incidunt. Natus, minima. Rem tenetur omnis reiciendis laborum quia."
+    },
+    {
+      "Latitude": 1.284193,
+      "Longitude": 103.843362,
+      "Placename": "Chinatown",
+      "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure maiores asperiores laborum, tenetur repellat eaque sit praesentium a commodi deleniti. Totam corporis nemo corrupti explicabo ipsa ad, assumenda, iure, inventore ipsum et dolores cumque asperiores laudantium incidunt. Natus, minima. Rem tenetur omnis reiciendis laborum quia."
+    }
+  ]
+}
