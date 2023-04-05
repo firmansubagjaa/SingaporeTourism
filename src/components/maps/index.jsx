@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { GoogleMap, MarkerF, useLoadScript, InfoWindow } from "@react-google-maps/api";
 import dataLocation from "../../constants/locations.json";
+// import merlion from "../../assets/jpg/merlion.jpg";
 
 export default function MapsSection() {
   // create getter and setter
@@ -49,8 +50,9 @@ export default function MapsSection() {
             }}
           >
             <div>
+              <img src={selectedMarker.Image} alt="" className="w-56 rounded-md" />
               <div className="leading-loose">
-                <h1 className="font-extrabold text-xl">location - {selectedMarker.Placename}</h1>
+                <h1 className="font-extrabold text-xl">{selectedMarker.Placename}</h1>
                 <h1 className="font-bold">Description</h1>
               </div>
               <p>{selectedMarker.Description}</p>
