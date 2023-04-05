@@ -1,18 +1,19 @@
 import React, { useState } from "react";
-import { GoogleMap, MarkerF, useLoadScript } from "@react-google-maps/api";
+import { GoogleMap, MarkerF, useLoadScript, InfoWindow } from "@react-google-maps/api";
 import dataLocation from "../../constants/locations.json";
 
 export default function MapsSection() {
-  const [datas, setDatas] = useState([]);
+  // create getter and setter
+  const [selectedMarker, setSelectedMarker] = useState("");
+
+  // change JSON to string
   const dataToString = JSON.stringify(dataLocation);
+
+  // parse JSON
   const parseData = JSON.parse(dataToString);
   const { location } = parseData;
   console.log(location);
-  // setDatas(parseData);
 
-  // console.log(data);
-
-  // const locations = useState();
   // create API from google console
   // source ENV problem in Vite ReactJS = https://stackoverflow.com/questions/70709987/how-to-load-environment-variables-from-env-file-using-vite
   const { isLoaded } = useLoadScript({ googleMapsApiKey: import.meta.env.VITE_REACT_GOOGLE_MAP_API_KEY });
@@ -22,16 +23,41 @@ export default function MapsSection() {
 
   const Map = () => {
     return (
-      // set GoogleMap and MarkerF
+      // set GoogleMap for showing maps and add MarkerF to take a place
       <GoogleMap zoom={15} center={{ lat: 1.28692, lng: 103.85457 }} mapContainerClassName="w-full h-full">
         {location.map((items) => {
           return (
             <>
-              <MarkerF zoom={17} position={{ lat: items.Latitude, lng: items.Longitude }} />
+              <MarkerF
+                htmlFor="my-modal-4"
+                zoom={17}
+                position={{ lat: items.Latitude, lng: items.Longitude }}
+                onClick={() => {
+                  setSelectedMarker(items);
+                }}
+              />
             </>
           );
         })}
-        {/* <MarkerF zoom={17} position={{ lat: 1.287466, lng: 103.851424 }} /> */}
+
+        {/* conditional for showing description with InfoWindow*/}
+        {selectedMarker && (
+          <InfoWindow
+            position={{ lat: selectedMarker.Latitude, lng: selectedMarker.Longitude }}
+            options={{
+              pixelOffset: new window.google.maps.Size(0, -40),
+            }}
+          >
+            <div>
+              <div className="leading-loose">
+                <h1 className="font-extrabold text-xl">location - {selectedMarker.Placename}</h1>
+                <h1 className="font-bold">Description</h1>
+              </div>
+              <p>{selectedMarker.Description}</p>
+            </div>
+            {/* source : https://www.youtube.com/watch?v=V0tIqQ3lkt8 */}
+          </InfoWindow>
+        )}
       </GoogleMap>
     );
   };
