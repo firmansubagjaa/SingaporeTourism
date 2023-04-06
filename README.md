@@ -24,8 +24,8 @@ This project aims to fulfill the recruitment requirements at PT Xtremax Teknolog
 ## Installation
 1. Clone the repo
    ```sh
-   git clone https://github.com/teko-tech-project-team/hiring-app-be
-   git clone https://github.com/teko-tech-project-team/hiring-app-be
+   git clone https://github.com/firmansubagjaa/SingaporeTourism.git
+   git clone https://github.com/firmansubagjaa/SingaporeTourism.git
    ```
 2. Install NPM packages
    ```sh
@@ -42,6 +42,11 @@ This is an example of how to list things you need to use the software and how to
 - npm
   ```sh
   npm install npm@latest -g
+  ```
+  
+- run
+   ```sh
+  npm run dev
   ```
 
 ## Contact
