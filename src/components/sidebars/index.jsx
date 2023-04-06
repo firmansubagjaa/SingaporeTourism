@@ -13,7 +13,7 @@ export default function Sidebars() {
         </div>
         <div className="drawer-side w-48">
           <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
-          <ul className="menu bg-[#323342]  text-white w-24">
+          <ul className="menu bg-[#323342] text-white w-24">
             {/* <!-- Sidebar content here --> */}
             <li>
               <a className="active justify-center">Browse</a>
